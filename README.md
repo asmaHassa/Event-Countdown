@@ -26,6 +26,25 @@ The Event Countdown Web App is a simple web application designed to help users k
   
 3. **Receive Notifications (Optional):** Users can opt to receive notifications when the event is due by clicking the "Send Notification" button. This will prompt the browser to request permission for notifications. If granted, the user will receive a notification when the countdown reaches zero.
 
-## To Access Web App:
+## To Access code:
+1. Clone the repository to your local machine: git clone <repository-url>
+
+2. Navigate to the project directory: cd Event-Countdown
+
+3. You can now access the JS, HTML/CSS files!
+
+## To Access Website:
+Link: TBA
+
+## Credits:
+This project was created by Asma Hassan.
+
+
+
+
+
+
+
+
 
 1. Go to website: 
