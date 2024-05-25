@@ -1,6 +1,9 @@
 # Event Countdown Web App
 
-The Event Countdown Web App is a simple web application designed to help users keep track of important events by providing a countdown timer and the option to receive notifications when the event is due. It utilizes HTML, CSS, and JavaScript for button/animation functionality. This website mainly will be used whenever there's a special occasion, and you want something to celebrate with you!
+The Event Countdown Web App is a simple web application designed to help users keep track of important events by providing a countdown timer and the option to receive notifications when the event is due. It utilizes HTML, CSS, and JavaScript for button/animation functionality. This website mainly will be used whenever there's a special occasion, and you want something to celebrate with you! The Event Countdown website is hosted using Firebase.
+
+## To Access Website:
+Link: https://event-countdown-timer1.web.app/
 
 ## Features
 
@@ -24,14 +27,11 @@ The Event Countdown Web App is a simple web application designed to help users k
   
 
 ## To Access code:
-1. Navigate to the "final-code" branch ( press "3 Branches" and select "final-code")
-2. From there, you will see all the HTML, CSS, and Javascript files will be there.
-3. Clone the branch by pressing the green "Code" button, select based on whether you are using SSH, HTTPS or Github Clone, then putting command into your terminal. A copy of the code should now be on your computer.
+1. Clone the branch by pressing the green "Code" button, select based on whether you are using SSH, HTTPS or Github Clone
+   (Example: if you are using SSH, you can use git clone <link> onto terminal
+3. Paste command onto terminal, and HTML,CSS and JS files should be uploaded to your computer.
 
 
-
-## To Access Website:
-Link: TBA
 
 ## Credits:
 This project was created by Asma Hassan.
