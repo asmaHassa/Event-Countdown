@@ -36,12 +36,3 @@ Link: https://event-countdown-timer1.web.app/
 ## Credits:
 This project was created by Asma Hassan.
 
-
-
-
-
-
-
-
-
-1. Go to website: 
