@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5882d1;
+}
+
+.main-container {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    font-size: 30px;
+}
+
+
+.reminder {
+    color: white;
+    margin-bottom: 10px;
+    margin: 0;
+}
+
+.reminder h1 {
+    margin-bottom: 5px; 
+}
+
+.reminder p {
+    margin-top: 0;
+}
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(198, 184, 184, 0.2);
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease;
+}
+
+.content-box.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.input-row label {
+    font-size: 18px;
+    margin-right: 10px;
+    min-width: 200px;
+    text-align: right;
+}
+
+input#time-to, input[type="text"] {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.submit-button {
+    margin-top: 20px;
+}
+
+
+
+.submit-button button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5882d1;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button button:hover {
+    background-color: #000000;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 40px;
+}
+
+.event-description {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 260px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 25px;
+}
+
+.clock-column {
+    text-align: center;
+    margin: 0 3rem; 
+    color: white;
+}
+.clock-timer {
+    font-size: 7rem;
+    margin-bottom: 0.5rem;
+}
+
+.clock-label {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.clock-input {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#stickman-container {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url('man.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform-origin: center; 
+    z-index: 10; 
+}
+
+@keyframes flip {
+    0% {
+        left: -100px;
+        transform: rotate(0deg);
+    }
+    25% {
+        left: 25%;
+        transform: rotate(180deg); 
+    }
+    50% {
+        left: 50%;
+        transform: rotate(360deg); 
+    }
+    75% {
+        left: 75%;
+        transform: rotate(540deg); 
+    }
+    100% {
+        left: 100%;
+        transform: rotate(720deg); 
+    }
+}

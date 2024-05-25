@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Countdown</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="reminder">
+            <h1>Event Countdown!</h1>
+            <p>Use this when you have something important (or not)!</p>
+        </div>
+
+        <div class="content-box reveal">
+            <div class="clock-input">
+                <h2></h2>
+                <div class="input-row">
+                    <label for="date-to">Enter Date:</label>
+                    <input type="date" name="date-to" class="date-to" id="date-to" value="">
+                </div>
+                <div class="input-row">
+                    <label for="time-to">Enter Time:</label>
+                    <input type="time" name="time-to" class="time-to" id="time-to" value="">
+                </div>
+            </div>
+
+            <div class="event-input">
+                <div class="input-row">
+                    <label for="event">Enter Event Description:</label>
+                    <input type="text" id="event" name="event" placeholder="Enter your event (10 words or less)">
+                </div>
+            </div>
+            
+            <div class="submit-button">
+                <button id="start-button">Start Countdown!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="countdown-content" style="display: none;">
+        <div class="container">
+            <div class="clock-column">
+                <span class="clock-timer" id="days"></span>
+                <p class="clock-label">Days</p>
+            </div>
+            <div class="clock-column">
+                <span class="clock-timer" id="hours"></span>
+                <p class="clock-label">Hours</p>
+            </div>
+            <div class="clock-column">
+                <span class="clock-timer" id="minutes"></span>
+                <p class="clock-label">Minutes</p>
+            </div>
+            <div class="clock-column">
+                <span class="clock-timer" id="seconds"></span>
+                <p class="clock-label">Seconds</p>
+            </div>
+            <div id="stickman-container"></div>
+        </div>
+    </div>
+          <script src="script.js"></script>
+
+</body>
+</html>
