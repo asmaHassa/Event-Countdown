@@ -28,7 +28,7 @@ Link: https://event-countdown-timer1.web.app/
 
 ## To Access code:
 1. Clone the branch by pressing the green "Code" button, select based on whether you are using SSH, HTTPS or Github Clone
-   (Example: if you are using SSH, you can use git clone <link> onto terminal
+   (Example: if you are using SSH, you can use git clone <link> onto terminal)
 3. Paste command onto terminal, and HTML,CSS and JS files should be uploaded to your computer.
 
 
