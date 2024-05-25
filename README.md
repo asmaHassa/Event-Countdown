@@ -24,11 +24,11 @@ The Event Countdown Web App is a simple web application designed to help users k
   
 
 ## To Access code:
-1. Clone the repository to your local machine: git clone <repository-url>
+1. Navigate to the "final-code" branch ( press "3 Branches" and select "final-code")
+2. From there, you will see all the HTML, CSS, and Javascript files will be there.
+3. Clone the branch by pressing the green "Code" button, select based on whether you are using SSH, HTTPS or Github Clone, then putting command into your terminal. A copy of the code should now be on your computer.
 
-2. Navigate to the project directory: cd Event-Countdown
 
-3. You can now access the JS, HTML/CSS files!
 
 ## To Access Website:
 Link: TBA
