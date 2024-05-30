@@ -21,7 +21,7 @@ Link: https://event-countdown-timer1.web.app/
 
 ## How to Use
 
-1. **Enter Event Details:** Users input the date, time, and description of the event they want to track.
+1. **Enter Event Details:** Users input the date, time, and description of the event they want to celebrate.
   
 2. **Start Countdown:** After entering the event details, users click the "Start Countdown!" button to initiate the countdown timer. Once countdown ends, it triggers a celebration.
   
