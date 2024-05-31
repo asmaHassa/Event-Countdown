@@ -1,6 +1,6 @@
 # Event Countdown Web App
 
-The Event Countdown Web App is a simple web application designed to help users keep track of important events by providing a countdown timer and the option to receive notifications when the event is due. It utilizes HTML, CSS, and JavaScript for button/animation functionality. This website mainly will be used whenever there's a special occasion, and you want something to celebrate with you! The Event Countdown website is hosted using Firebase.
+The Event Countdown Web App is a simple web application designed to help users keep track of important events by providing a countdown timer and the option to receive notifications when the event is due. It utilizes HTML, CSS, and JavaScript for button/animation functionality. This website mainly will be used whenever there's a special occasion, and you want something to celebrate with you! The Event Countdown website is hosted using Firebase!
 
 ## To Access Website:
 Link: https://event-countdown-timer1.web.app/
